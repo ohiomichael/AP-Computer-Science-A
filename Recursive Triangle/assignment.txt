@@ -1,0 +1,38 @@
+Suppose that you have a method printStars, such that printStars(n) prints n stars on one line.  For example a statement
+
+printStars(5);  displays the line *****
+
+
+
+(a) Using the printStars method, write a  recursive method printTriangle(n) prints a triangle with one star in the first row, two stars in the second row and so on up to n starts in the last row.  For example, a statement printTriangle(5) should display
+
+
+
+*
+
+**
+
+***
+
+****
+
+*****
+
+
+
+(b) Add a method printTriangle2 that will recursively draw the reverse triangle, starting with n stars, and decreasing by one star on each line.  For example 
+
+printTriangle2(5) should display
+
+
+
+*****
+
+****
+
+***
+
+**
+
+*
+

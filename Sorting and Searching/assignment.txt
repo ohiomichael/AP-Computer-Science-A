@@ -1,0 +1,29 @@
+1.        Create a one dimensional array that contains 20 random integers between 0 and 5.
+
+ 
+
+2.        Print the contents of this array
+
+ 
+
+3.        Sort the array in ascending order.
+
+ 
+
+4.        Reprint the contents of the array.
+
+ 
+
+5.        Binary search through the array to find ALL instances of the number 2.
+
+ 
+
+6.        Create a new array and populate it with only the non-2 numbers, still sorted.
+
+ 
+
+7.        Print out the contents of the new array.
+
+ 
+
+8.        Submit TwoRemover through Schoology. Make sure your code includes a comment statement with your name on it.
