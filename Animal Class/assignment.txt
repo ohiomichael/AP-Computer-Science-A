@@ -1,0 +1,17 @@
+create the Java source code files for the classes listed in the inheritance hierarchy displayed below. A test program is stored in the shared drive called AbstractTest.java to run once you have created the other files. Compile all source code and execute the test program to obtain the output as displayed on the back of this sheet.
+
+1.      Create a base class, Animal. The single constructor requires a String to indicate the type of animal, which is stored in an instance variable. Animal has four void methods: describe(), sound(), sleep(), and move().
+
+2.      Create a concrete class, Cat, which inherits from Animal. Cat has two instance variables, both Strings: name, which has private access and breed which has protected access. Cat overrides all of the methods of the Animal class.
+
+3.      Create a class, Bird, which inherits from Animal. Bird has a single instance variable, breed, of type String with protected access. Bird overrides the move() method.
+
+4.      Create a concrete class, Robin, which inherits from Bird. Robin has a single instance variable, name, of type String with private access. Robin overrides the describe(), sound(), and sleep() methods.
+
+5.      Compile all source code and execute the test program to obtain the output on the back of this sheet.
+
+Animal Class Part 2 
+
+1. Create a Dog class and a Fish class, both inheriting from Animal. Both classes should override all four methods of the Animal class with appropriate messages for each type of Animal.
+
+2. Write a runner class, similar to AbstractTest. Name your runner class LoopTest.java. Your runner should create an array or ArrayList of Animal (include one of each type of animal (Cat, Dog, Fish, Robin) and then loop through the data structure calling the describe(), sound(), sleep(), and move() methods, successfully.  
