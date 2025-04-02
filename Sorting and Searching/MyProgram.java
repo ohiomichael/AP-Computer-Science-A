@@ -2,7 +2,8 @@ public class MyProgram{
     public static void main(String[] args){
         int[] array = arrayGenerator(20);
         printArray(array);
-
+        bubbleSort(array);
+        printArray(array);
     }
 
     // Method to generate random arrays
@@ -23,8 +24,22 @@ public class MyProgram{
         System.out.print("]");
     }
 
-    // Insertion Sort
-    public static int[] inerstionSort(int[] array){
-        return null;
+    // Bubble sort
+    public static int[] bubbleSort(int[] array){
+        boolean swaps = true;
+        while(swaps){
+            swaps = false;
+            for(int i= 1; i < array.length;i++){
+
+                // Handle Swaping
+                if(array[i] > array[i-1]){
+                    swaps = true;
+                    int temp = array[i-1];
+                    array[i-1] = array[i];
+                    array[i] = temp;
+                }
+            }
+        }
+        return array;
     }
 }
