@@ -4,6 +4,7 @@ public class MyProgram{
         printArray(array);
         bubbleSort(array);
         printArray(array);
+        System.out.print(binarySearch(array, 2));
     }
 
     // Method to generate random arrays
@@ -41,5 +42,35 @@ public class MyProgram{
             }
         }
         return array;
+    }
+
+    // Binary search algorith
+    public static String binarySearch(int[] array, int x){
+        if(array.length == 1){
+            if(array[0] == x){
+                return ("Number FOUND!");
+            } else {
+                return ("Number Not Found");
+            }
+        }
+        int[] values;
+        int left = array[array.length/2];
+
+        int mid = array.length / 2;
+    
+        if(left < x){
+            // Left Side
+            values = new int[mid];
+            for(int i = 0; i < array.length/2; i++){
+                values[i] = array[i];
+            }
+        } else {
+            // Right Side
+            values = new int[array.length - mid];
+            for(int i = array.length/2; i < array.length; i++){
+                values[i-(array.length/2)] = array[i];
+            }
+        }
+        return binarySearch(values, x);
     }
 }
