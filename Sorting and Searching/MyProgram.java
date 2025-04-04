@@ -1,10 +1,16 @@
+import java.util.Arrays;
+
 public class MyProgram{
     public static void main(String[] args){
         int[] array = arrayGenerator(20);
         printArray(array);
         bubbleSort(array);
         printArray(array);
-        System.out.print(binarySearch(array, 2));
+        int index = Arrays.binarySearch(array, 2);
+        System.out.print(index+"");
+        printArray(removeFromArray(array, 2));
+
+
     }
 
     // Method to generate random arrays
@@ -72,5 +78,23 @@ public class MyProgram{
             }
         }
         return binarySearch(values, x);
+    }
+
+    public static int[] removeFromArray(int[] array, int x){
+        int i = 0;
+        for(int a: array){
+            if(a == x){
+                i++;
+            }
+        }
+        int[] values = new int[array.length-i];
+        int i2 = 0;
+        for(int a: array){
+            if(a != x){
+                values[i2] = a;
+                i2++;
+            }
+        }
+        return values;
     }
 }
