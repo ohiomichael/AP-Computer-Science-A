@@ -1,0 +1,11 @@
+Write a method swapDigits() that is sent an int, of undetermined size, and returns the int with the ones and tens digits reversed.  Method call examples are:
+
+ 
+
+swapDigits(12) would return 21
+
+swapDigits(1234) would return 1243
+
+swapDigits(9) would return 90
+
+swapDigits(40) would return 4

@@ -1,0 +1,31 @@
+Write a program called MyProgram. You will need to include the import statement for the Scanner class. The program should input the user’s name and grade level. The class should include a static method, named fancyLines() that prints two lines of decorative output, the design of your choice. The main method should input the name and grade level and then output the sentence using the user’s input values:
+
+ 
+
+Name is in grade: grade level
+
+ 
+
+The fancyLines() method should be called after the input statements and then print the name and grade level sentence. The fancyLines() method should be called after the sentence prints too. Here is a sample run:
+
+ 
+
+Enter your name please: Java Jeff
+
+Enter your grade level: 12
+
+ 
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+ 
+
+Java Jeff is in grade: 12
+
+ 
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*

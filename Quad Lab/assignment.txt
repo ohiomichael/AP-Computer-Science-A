@@ -1,0 +1,7 @@
+Complete the code to calculate the roots of a quadratic equation. We will only run this with examples that have actual real roots. Complete the code of the Quad class. Sample runs are as follows:
+
+x2 – 5x + 6: a = 1, b = -5, c = 6   The roots are 2.0and 3.0
+
+x2 – x - 12 : a = 1, b = -1, c = -12   The roots are 4.0 and -3.0
+
+x2 – 4: a = 1, b = 0, c = -4   The roots are -2.0 and 2.0

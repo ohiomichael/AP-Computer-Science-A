@@ -1,0 +1,13 @@
+An integer constant DAY_OF_WEEK1 has a value from 0 to 6 and represents the day of the week for January 1st (0 = Sunday, 1 = Monday, 2 = Tuesday, etc) A variable day has a value from 1 to 31 and represents a day in January. Write a method that is sent the value for the constant and the value for the day and returns the integer representing the dayOfWeek that day falls on.  Code the method in the file named January.java stored on the shared drive. Check out the possible January calendars below:
+
+
+
+DAY_OF_WEEK1 = 0   // January 1 is a Sunday
+
+If day = 13 then dayOfWeek = 5   //which is Friday
+
+
+
+DAY_OF_WEEK1 = 1         //January 1 is a Monday
+
+If day = 9 then dayOfWeek = 2     //which is Tuesday

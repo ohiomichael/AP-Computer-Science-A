@@ -1,0 +1,13 @@
+Write a program that will generate 5 lucky numbers. Lucky numbers are in the range of 7 to 31, inclusive. Output the lucky numbers in a horizontal line with 8 spaces between each number. (Use Java’s tab function to format this).  It is okay if the numbers repeat.
+
+ 
+
+Sample Run:
+
+ 
+
+Here are your 5 lucky numbers:
+
+ 
+
+21       15       7       30       19
