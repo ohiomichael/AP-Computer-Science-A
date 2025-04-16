@@ -1,0 +1,43 @@
+Write a program that creates a sandwich. The sandwich consists of one choice of bread, choice of meat, and choice of cheese.   The sandwich class will also have a field for price (double). This class will have multiple constructors, the first constructor will accept parameters of the three sandwich ingredients. The second constructor, a no-args constructor will utilize private helper methods that randomly generate the sandwich ingredients. Below will be one of the private helper methods. Use this template to write the other two methods. 
+
+ 
+
+private String chooseMeat()
+
+{
+
+	String [] meats = {“Ham”, “Roast Beef”, “Chicken”, “Turkey”, “Tuna Salad”};
+
+	int choice = (int)(Math.random()*meats.length);
+
+	return meats[choice];
+
+}
+
+ 
+
+public Sandwich()
+
+{
+
+     meat = chooseMeat();
+
+}
+
+ 
+
+Write 2 more private methods, chooseCheese() and chooseBread(). Make sure to include Flat Bread as one of the array choices in the chooseBread() method.
+
+ 
+
+The base price of a sandwich is $2.50. There is an additional fee of $0.75 for any sandwich made with Flat Bread. There is an additional $1.00 fee for any Roast Beef sandwich. The class should include a method that will calculate the price of the sandwich.
+
+ 
+
+The Sandwich class should include a toString() method that will print out all of the ingredients of the sandwich and its price, use DecimalFormat to output the price as money, rounded to the hundredths place.
+
+ 
+
+ 
+
+Write a SandwichRunner class that will test the program. The program should prompt the user for three sandwich ingredients and create a sandwich with those input ingredients. The program should also use the noArgs constructor and create a random sandwich. The program should print both sandwiches, ingredients and prices.

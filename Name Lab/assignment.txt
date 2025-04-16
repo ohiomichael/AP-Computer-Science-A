@@ -1,0 +1,27 @@
+Write an external class that represents a Name. The class should have fields for full name, first name, middle name, and last name.
+
+ 
+
+1.  Include a constructor that accepts one String parameter for full name. The full name must be in the format first name, 1 space, middle name, 1 space, last name. The constructor must initialize all four fields using String methods and the data from the one parameter. You may do this all in the constructor or you may write helper methods that the constructor calls to complete these tasks.
+
+You may not use any sort of loop in this project.
+
+ 
+
+2.  The class must include a method, getInitials() that will return the 3 initials of the Name.
+
+
+
+3.  The class must include a toString() method that will output the Name object in the following format:
+
+ 
+
+full name: Vicki Renee Williams
+
+first name: Vicki
+
+middle name: Renee
+
+last name: Williams
+
+initials: VRW

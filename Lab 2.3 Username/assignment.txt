@@ -1,0 +1,11 @@
+Write a class that inputs a user’s first name and last name. The program should construct and output the user’s username which consists of the user’s last name plus the first two characters of the user’s first name and ends with the suffix “.OLSD”. For example, input of firstName: James, lastName: Savinell should output the username: SavinellJa.OLSD Here is sample run of my solution to this project:
+
+
+
+Enter your first name: Monica
+
+Enter your last name: Asher
+
+
+
+Your username is AsherMo.OLSD
