@@ -1,0 +1,1 @@
+Fill in the missing code in the totalWages method, which calculates the total earnings for a week based on the number of hours worked and the hourly rate. The pay for overtime (hours worked over 40) is 1.5 times the regular rate. For example, totalWages(45,12.50) should return 593.75.

@@ -1,0 +1,9 @@
+Write a method findFirst() that is sent 3 different Strings and will return the String which comes first in alphabetical order. 
+
+Write a method findLast() that is sent 3 Strings and will return the String which comes last in alphabetical order. 
+
+Write a method orderStrings() that is sent 3 Strings and will print the 3 Strings in alphabetical order. 
+
+Please use the methods findFirst() and findLast() when writing orderStrings(). 
+
+Add the methods to the tester programs CompareToLab found on the shared drive in the unit 3 folder.
