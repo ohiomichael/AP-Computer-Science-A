@@ -1,0 +1,18 @@
+The program asks you to enter a list of names, enter "stop" when you have completed the list.  You are to add a method to the code reverseList that will reverse the order of the Strings on the list.  The original list should remain unchanged.  If you enter...
+
+Larry
+
+Curly
+
+Moe
+
+stop
+
+
+
+The output should be:
+
+Original List: [Larry, Curly, Moe]
+
+Reverse List: [Moe, Curly, Larry]
+

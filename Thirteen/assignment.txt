@@ -1,0 +1,10 @@
+The starter code creates a list of random numbers in the range of 1 to 100.  You are to add a method, removeSmallestElement that will remove the smallest Integer in the list from the original list, modify the list that is originally created.  The starter code will then print that list, showing that the smallest number has been removed.
+
+
+
+Sample Run:
+
+[23, 67, 12, 98, 34, 4, 56, 48, 21, 90]
+
+[23, 67, 12, 98, 34, 56, 48, 21, 90]
+

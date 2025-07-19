@@ -1,0 +1,47 @@
+The program asks you to enter a list of names of students in an AP Computer Science class, enter "stop" when you have completed the list.  You then enter a second list of students in a Precalculus class, enter "stop" when you have completed the list. You are to add a method to the code, removeDuplicates that will remove any duplicate students from the AP Computer Science list, the Precalculus list should remain unchanged.
+
+
+
+Sample Run:
+
+AP Students: 
+
+Adi
+
+Erin
+
+Nick
+
+Sam
+
+Aashna
+
+stop
+
+Precalc Students:
+
+Aashna
+
+Tom
+
+Sam
+
+Adi
+
+Bobby
+
+stop
+
+
+
+AP Class without Precalc students:
+
+[Erin, Nick]
+
+Precalc class Unchanged:
+
+[Aashna, Tom, Sam, Adi, Bobby]
+
+
+
+** Run this one several times, switching around the order of the students to test this one.
