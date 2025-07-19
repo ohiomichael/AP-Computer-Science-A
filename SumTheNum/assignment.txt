@@ -1,0 +1,6 @@
+Java Methods  (pg. 201 #12) SumTheNum: 
+
+	Input: Enter a non-negative integer: 546
+
+              Output: The sum of the digits in 546 is 15
+

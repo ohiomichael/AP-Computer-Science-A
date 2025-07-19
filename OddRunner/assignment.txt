@@ -1,0 +1,9 @@
+Java Methods (pg. 201 #8) OddRunner: Input: Enter a positive number: 5
+
+              Output:The sum of the odd integers up to 5 is 9
+
+ 
+
+	Input: Enter a positive number: 12
+
+              Output:The sum of the odd integers up to 12 is 36

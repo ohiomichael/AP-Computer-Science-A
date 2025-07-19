@@ -1,0 +1,17 @@
+Write a class Palindrome that has two String fields, one for the word and another for the word spelled backwards. The class should contain a boolean field pal: true if the word is a palindrome, false if it is not a palindrome. The constructor of the class is sent a String value for the word field. The class should contain a helper method reverse which returns the String value word with the characters in reverse order. The class should contain a boolean method, testPal which assigns the correct value of pal based on the values stored in the two String fields. The program should include three accessor methods to be used in the tester program.
+
+ 
+
+Write a tester program that will input a word, create a Palindrome object with that value and then using the accessor methods prints out whether the word is a palindrome or not. Below are examples of my program run:
+
+
+
+Enter a word: racecar
+
+racecar is a Palindrome!!
+
+
+
+Enter a word: computer
+
+computer is not a Palindrome!!
