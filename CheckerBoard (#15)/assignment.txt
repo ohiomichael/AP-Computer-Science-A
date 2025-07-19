@@ -1,0 +1,1 @@
+Complete the method fillCheckerboard() that fills a 2D array of char in a checkerboard pattern.  Use 'x' for a dark square and '.' for a light square.
